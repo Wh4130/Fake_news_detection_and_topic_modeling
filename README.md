@@ -4,7 +4,7 @@ This is a news content NLP analysis written by Wally, Huang Lin, Chun. The proje
 
 ## Fake News Detection by Supervised ML based on Tfidf
 
-In the first section, we aim at predicting fake news based on the text structures and vectors. We first use the `TfidfVectorizer()` <span style="color:skyblue">(Term Frequency - Inverse Document Frequency) </span>method built in the `sklearn` machine learning tool kit to extract features from raw texts.
+In the first section, we aim at predicting fake news based on the text structures and vectors. We first use the `TfidfVectorizer()` <ins>(Term Frequency - Inverse Document Frequency) </ins> method built in the `sklearn` machine learning tool kit to extract features from raw texts.
 
 Exploiting the ***tfidf*** of each document as feature matrix, we trained three candidate traditional machine learning models and selected the best-performing one as the final model to optimize.
 
